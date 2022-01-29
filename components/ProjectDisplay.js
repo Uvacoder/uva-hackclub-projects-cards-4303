@@ -5,9 +5,9 @@ import {
 import theme from '@hackclub/theme'
 import Project from './project.js'
 
-export default function ProjectDisplay ({ projects = [], children, ...props }) {
+export default function ProjectDisplay ({ projects = [], children, style = {}, ...props }) {
     return (
-        <Container variant="wide" style={{ background: theme.colors.blue, borderRadius: '16px', padding: '16px', margin: '16px', boxSizing: 'border-box', width: 'calc( 100% - 32px )' }} {...props}>
+        <Container variant="wide" style={{ background: theme.colors.blue, borderRadius: '16px', padding: '16px', margin: '16px', boxSizing: 'border-box', width: 'calc( 100% - 32px )', ...style }} {...props}>
             <Grid
             columns={[null, 2, 3]}
             gap={3}
