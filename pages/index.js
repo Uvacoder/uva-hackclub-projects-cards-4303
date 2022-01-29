@@ -1,30 +1,30 @@
 import {
-BaseStyles,
-Badge,
-Box,
-Button,
-Card,
-Checkbox,
-Container,
-Flex,
-Grid,
-Heading,
-Input,
-Label,
-Link,
-NavLink,
-Radio,
-Select,
-Slider,
-Text,
-Textarea
+    BaseStyles,
+    Badge,
+    Box,
+    Button,
+    Card,
+    Checkbox,
+    Container,
+    Flex,
+    Grid,
+    Heading,
+    Input,
+    Label,
+    Link,
+    NavLink,
+    Radio,
+    Select,
+    Slider,
+    Text,
+    Textarea
 } from 'theme-ui'
 import Head from 'next/head'
 import Meta from '@hackclub/meta'
 import theme from '@hackclub/theme'
 import ColorSwitcher from '../components/color-switcher'
 import Icon from '@hackclub/icons'
-import Project from '../components/Project.js'
+import ProjectDisplay from '../components/ProjectDisplay.js'
 
 const ExplorePage = () => (
 <>
@@ -70,141 +70,128 @@ const ExplorePage = () => (
     as="main"
     sx={{ bg: 'background', color: 'text', py: 4, h2: { mt: 4 } }}
     >
-    <Container variant="wide">
         <Heading variant="title" style={{ textAlign: 'center' }}>Featured</Heading>
         <br />
-        <Grid
-        columns={[null, 2, 3]}
-        gap={3}
-        sx={{ code: { mt: 1, ml: -1, fontSize: 0 } }}
-        >
-        
-        <Project
-            icon="send"
-            background="white"
-            name="Pong-Ish"
-            desc="It's kind of like pong (ish)."
-            image="https://user-images.githubusercontent.com/27078897/149371012-faf3e45f-9d3a-47d4-831b-566d9171d2bd.gif"
-            url="https://hackclub.github.io/game-lab/?file=recZMaBjgnNXgZsUK"
-            author="Leo"
-        />
-        
-        <Project
-            icon="send"
-            background="white"
-            name="Crappy Birds"
-            desc="A game about birds."
-            image="https://user-images.githubusercontent.com/27078897/149380918-a1855ab3-cc2d-4a9a-adc0-d5316d6f17ba.gif"
-            url="https://hackclub.github.io/game-lab/?file=recJX7dAboz7v1OFG"
-            author="Leo"
-        />
-        
-        <Project
-            icon="send"
-            background="white"
-            name="Brick Broken"
-            desc="A game about bricks. (Or, tomatoes? No, wait, apples.)"
-            image="https://user-images.githubusercontent.com/27078897/150606449-5b73d7fe-f2d3-432f-9cc5-346c20919ec8.gif"
-            url="https://hackclub.github.io/game-lab/?file=rec6bdF7IS7vY7xzl"
-            author="Leo"
-        />
+        <ProjectDisplay projects={[
+            {
+                name: "Pong-Ish",
+                description: "It's kind of like pong (ish).",
+                image: "https://user-images.githubusercontent.com/27078897/149371012-faf3e45f-9d3a-47d4-831b-566d9171d2bd.gif",
+                url: "https://hackclub.github.io/game-lab/?file=recZMaBjgnNXgZsUK",
+                author: "Leo"
+            },
+            {
+                name: "Crappy Birds",
+                description: "A game about birds.",
+                image: "https://user-images.githubusercontent.com/27078897/149380918-a1855ab3-cc2d-4a9a-adc0-d5316d6f17ba.gif",
+                url: "https://hackclub.github.io/game-lab/?file=recJX7dAboz7v1OFG",
+                author: "Leo"
+            },
+            {
+                name: "Brick Broken",
+                bescription: "A game about bricks. (Or, tomatoes? No, wait, apples.)",
+                image: "https://user-images.githubusercontent.com/27078897/150606449-5b73d7fe-f2d3-432f-9cc5-346c20919ec8.gif",
+                url: "https://hackclub.github.io/game-lab/?file=rec6bdF7IS7vY7xzl",
+                author: "Leo"
+            }
+        ]} style={{ }} />
 
-        </Grid>
-        <Heading variant="headline">Text</Heading>
-        <Card>
-        {Object.keys(theme.text).map(key => {
-            const Component = key.includes('head') ? Heading : Text
-            return (
-            <Component key={key} variant={key} sx={{ mt: 0, mb: 3 }}>
+        <Container variant="wide" style={{  }}>
+            <Heading variant="headline">Text</Heading>
+            <Card>
+            {Object.keys(theme.text).map(key => {
+                const Component = key.includes('head') ? Heading : Text
+                return (
+                <Component key={key} variant={key} sx={{ mt: 0, mb: 3 }}>
+                    {key}
+                </Component>
+                )
+            })}
+            </Card>
+            <Card as={BaseStyles} sx={{ mt: [3, 4], p: { fontSize: 2 } }}>
+            <p>
+                This is a whole paragraph of text, include{' '}
+                <code>code like this</code>, as well as{' '}
+                <a href="https://hackclub.com/">
+                <code>linked code</code>
+                </a>
+                {' & '}
+                <a href="https://hackclub.com/">regular links</a>. The paragraph
+                ended up being 1 sentence, but now I guess it’s <strong>two</strong>
+                .
+            </p>
+            <pre>
+                <code>Here’s a code block! No highlighting to be found.</code>
+            </pre>
+            </Card>
+            <Heading variant="headline">Buttons</Heading>
+            {Object.keys(theme.buttons).map(key => (
+            <Button key={key} variant={key} sx={{ mr: 3, mb: 3 }}>
+                {key} btn
+            </Button>
+            ))}
+            <Heading variant="headline">Forms</Heading>
+            <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken">
+            <Label>
+                Full name
+                <Input placeholder="Zach Latta" />
+            </Label>
+            <Label>
+                How are you primarily associated with Hack Club?
+                <Select>
+                <option value="" disabled hidden>
+                    Select one…
+                </option>
+                <option value="club-leader">I lead a club</option>
+                <option value="club-member">I am a club member</option>
+                <option value="slack-member">I am active on Slack</option>
+                <option value="alum">I am a Hack Club alum</option>
+                <option value="none">None of the above</option>
+                </Select>
+            </Label>
+            <Label variant="labelHoriz">
+                <Checkbox />
+                Remember me
+            </Label>
+            <Flex sx={{ flexWrap: 'wrap' }}>
+                <Label variant="labelHoriz">
+                <Radio name="letter" /> Alpha
+                </Label>
+                <Label variant="labelHoriz">
+                <Radio name="letter" /> Bravo
+                </Label>
+                <Label variant="labelHoriz">
+                <Radio name="letter" /> Charlie
+                </Label>
+            </Flex>
+            <Label>
+                Why do you want to come?
+                <Textarea placeholder="Write a few sentences." />
+            </Label>
+            <Label>
+                Slider
+                <Slider color="red" />
+            </Label>
+            <Button
+                as="button"
+                type="submit"
+                children="RSVP"
+                sx={{ gridColumn: [null, 'span 2'] }}
+            />
+            </Grid>
+            <Heading variant="headline">Badges</Heading>
+            {Object.keys(theme.badges).map(key => (
+            <Badge
+                key={key}
+                variant={key}
+                mr={3}
+                color={key === 'outline' ? 'muted' : null}
+            >
                 {key}
-            </Component>
-            )
-        })}
-        </Card>
-        <Card as={BaseStyles} sx={{ mt: [3, 4], p: { fontSize: 2 } }}>
-        <p>
-            This is a whole paragraph of text, include{' '}
-            <code>code like this</code>, as well as{' '}
-            <a href="https://hackclub.com/">
-            <code>linked code</code>
-            </a>
-            {' & '}
-            <a href="https://hackclub.com/">regular links</a>. The paragraph
-            ended up being 1 sentence, but now I guess it’s <strong>two</strong>
-            .
-        </p>
-        <pre>
-            <code>Here’s a code block! No highlighting to be found.</code>
-        </pre>
-        </Card>
-        <Heading variant="headline">Buttons</Heading>
-        {Object.keys(theme.buttons).map(key => (
-        <Button key={key} variant={key} sx={{ mr: 3, mb: 3 }}>
-            {key} btn
-        </Button>
-        ))}
-        <Heading variant="headline">Forms</Heading>
-        <Grid gap={3} columns={[null, 2]} as="form" variant="cards.sunken">
-        <Label>
-            Full name
-            <Input placeholder="Zach Latta" />
-        </Label>
-        <Label>
-            How are you primarily associated with Hack Club?
-            <Select>
-            <option value="" disabled hidden>
-                Select one…
-            </option>
-            <option value="club-leader">I lead a club</option>
-            <option value="club-member">I am a club member</option>
-            <option value="slack-member">I am active on Slack</option>
-            <option value="alum">I am a Hack Club alum</option>
-            <option value="none">None of the above</option>
-            </Select>
-        </Label>
-        <Label variant="labelHoriz">
-            <Checkbox />
-            Remember me
-        </Label>
-        <Flex sx={{ flexWrap: 'wrap' }}>
-            <Label variant="labelHoriz">
-            <Radio name="letter" /> Alpha
-            </Label>
-            <Label variant="labelHoriz">
-            <Radio name="letter" /> Bravo
-            </Label>
-            <Label variant="labelHoriz">
-            <Radio name="letter" /> Charlie
-            </Label>
-        </Flex>
-        <Label>
-            Why do you want to come?
-            <Textarea placeholder="Write a few sentences." />
-        </Label>
-        <Label>
-            Slider
-            <Slider color="red" />
-        </Label>
-        <Button
-            as="button"
-            type="submit"
-            children="RSVP"
-            sx={{ gridColumn: [null, 'span 2'] }}
-        />
-        </Grid>
-        <Heading variant="headline">Badges</Heading>
-        {Object.keys(theme.badges).map(key => (
-        <Badge
-            key={key}
-            variant={key}
-            mr={3}
-            color={key === 'outline' ? 'muted' : null}
-        >
-            {key}
-        </Badge>
-        ))}
-        <Heading variant="headline">Colors</Heading>
-    </Container>
+            </Badge>
+            ))}
+            <Heading variant="headline">Colors</Heading>
+        </Container>
     </Box>
 </>
 )
