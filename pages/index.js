@@ -44,6 +44,15 @@ const ExplorePage = () => (
         <Text as="p" variant="subtitle" mt={3}>
         Explore mini-projects made with <Link href="https://github.com/hackclub/game-lab/">Game Lab</Link> and <Link href="https://github.com/hackclub/muse/">Muse</Link>.
         </Text>
+        <Container variant="narrow" sx={{ mt: 3, mb: 4 }}>
+            <Label style={{ position: 'relative' }}> {/* The search feature has not been implemented yet */}
+                <Icon glyph="search" size={32} style={{ position: 'absolute', top: '7px', left: '7px' }} />
+                <Input placeholder="Search" style={{ border: '2px solid ' + theme.colors.muted, paddingLeft: '40px',
+                    "::WebkitInputPlaceholder": theme.colors.muted,
+                    "::MozPlaceholder": theme.colors.muted
+                }} />
+            </Label>
+        </Container>
         <Grid
         gap={4}
         columns="auto auto auto"
@@ -77,26 +86,27 @@ const ExplorePage = () => (
                 name: "Pong-Ish",
                 description: "It's kind of like pong (ish).",
                 image: "https://user-images.githubusercontent.com/27078897/149371012-faf3e45f-9d3a-47d4-831b-566d9171d2bd.gif",
-                url: "https://hackclub.github.io/game-lab/?file=recZMaBjgnNXgZsUK",
+                url: "/gamelab/recZMaBjgnNXgZsUK",
                 author: "Leo"
             },
             {
                 name: "Crappy Birds",
                 description: "A game about birds.",
                 image: "https://user-images.githubusercontent.com/27078897/149380918-a1855ab3-cc2d-4a9a-adc0-d5316d6f17ba.gif",
-                url: "https://hackclub.github.io/game-lab/?file=recJX7dAboz7v1OFG",
+                url: "/gamelab/recJX7dAboz7v1OFG",
                 author: "Leo"
             },
             {
                 name: "Brick Broken",
                 bescription: "A game about bricks. (Or, tomatoes? No, wait, apples.)",
                 image: "https://user-images.githubusercontent.com/27078897/150606449-5b73d7fe-f2d3-432f-9cc5-346c20919ec8.gif",
-                url: "https://hackclub.github.io/game-lab/?file=rec6bdF7IS7vY7xzl",
+                url: "/gamelab/rec6bdF7IS7vY7xzl",
                 author: "Leo"
             }
         ]} style={{ }} />
 
         <Container variant="wide" style={{  }}>
+            {/*
             <Heading variant="headline">Text</Heading>
             <Card>
             {Object.keys(theme.text).map(key => {
@@ -191,6 +201,7 @@ const ExplorePage = () => (
             </Badge>
             ))}
             <Heading variant="headline">Colors</Heading>
+        */}
         </Container>
     </Box>
 </>

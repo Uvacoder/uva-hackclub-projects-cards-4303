@@ -11,10 +11,11 @@ export default function Project ({ url, icon, background, name, desc, children, 
             variant="interactive"
             sx={{
             
-            svg: { color: 'rgb(51, 142, 218)' }
+            svg: { color: 'rgb(51, 142, 218)' },
+            
             }}
             style={{
-                padding: '0.5rem'
+                padding: '0.75rem'
             }}
         >
             <Box {...props}>
