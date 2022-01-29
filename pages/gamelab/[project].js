@@ -22,7 +22,7 @@ import {
     import Head from 'next/head'
     import Meta from '@hackclub/meta'
     import theme from '@hackclub/theme'
-    import ColorSwitcher from '../components/color-switcher'
+    import ColorSwitcher from '../../components/color-switcher'
     import Icon from '@hackclub/icons'
     
     
