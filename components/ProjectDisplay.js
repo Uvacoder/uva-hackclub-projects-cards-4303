@@ -3,7 +3,7 @@ import {
     Grid
 } from 'theme-ui'
 import theme from '@hackclub/theme'
-import Project from './project.js'
+import Project from './Project.js'
 
 export default function ProjectDisplay ({ projects = [], children, style = {}, ...props }) {
     return (
