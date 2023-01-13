@@ -37,10 +37,10 @@ const ProjectPage = () => {
     return (
     <>
         <Head>
-        <title>Hack Club Explore</title>
+        <title>Project Explorer</title>
         <Meta
-            name="Explore"
-            description="Explore the amazing mini-projects that Hack Clubbers have created."
+            name="Explorer"
+            description="Explore the projects from uvacoder."
         />
         </Head>
         <Box as="header" sx={{ bg: 'sheet', color: 'text' }}>
@@ -66,7 +66,7 @@ const ProjectPage = () => {
                 a: { color: 'muted', transition: 'color .125s ease-in-out' }
             }}
             >
-            <NavLink href="https://hackclub.com">Hack Club</NavLink>
+            <NavLink href="https://github.com/uvacoder">GitHub</NavLink>
             <NavLink href="#">
                 Link 2
             </NavLink>
