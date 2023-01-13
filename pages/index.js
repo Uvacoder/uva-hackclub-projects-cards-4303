@@ -83,11 +83,11 @@ const ExplorePage = () => (
         <br />
         <ProjectDisplay projects={[
             {
-                name: "Pong-Ish",
-                description: "It's kind of like pong (ish).",
-                image: "https://user-images.githubusercontent.com/27078897/149371012-faf3e45f-9d3a-47d4-831b-566d9171d2bd.gif",
-                url: "/gamelab/recZMaBjgnNXgZsUK",
-                author: "Leo"
+                name: "Portfolios4me",
+                description: "My own collection of portfolios I like.",
+                image: "https://raw.githubusercontent.com/Uvacoder/abc-portfolios4me/main/screenshot-portfolios4me.png",
+                url: "https://portfolios4me.vercel.app",
+                author: "uvacoder"
             },
             {
                 name: "Crappy Birds",
