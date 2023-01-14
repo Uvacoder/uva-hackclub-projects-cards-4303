@@ -95,6 +95,27 @@ const ExplorePage = () => (
                 image: "https://raw.githubusercontent.com/Uvacoder/abc-githubuser-view/master/screenshot-githubuser-view.png",
                 url: "https://githubuser-view.vercel.app",
                 author: "uvacoder"
+            }, 
+            {
+                name: "HackerNews",
+                bescription: "A webapp using nuxtjs to reproduce hackernews",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-portfolios-ideas-collection/main/screenshot-portfolios4ideas.png",
+                url: "https://hackernews4u.vercel.app/news/1",
+                author: "uvacoder"
+            },
+            {
+                name: "Portfolios for Ideas",
+                bescription: "A collection of great portfolios to give me ideas for future projects",
+                image: "https://raw.githubusercontent.com/Uvacoder/hackernews4u-uva/master/screenshot-hackernews4u.png",
+                url: "https://portfolios4ideas.vercel.app",
+                author: "uvacoder"
+            },
+            {
+                name: "HackerNews",
+                bescription: "A webapp using nuxtjs to reproduce hackernews",
+                image: "https://raw.githubusercontent.com/Uvacoder/hackernews4u-uva/master/screenshot-hackernews4u.png",
+                url: "https://hackernews4u.vercel.app/news/1",
+                author: "uvacoder"
             },
             {
                 name: "HackerNews",
