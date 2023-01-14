@@ -90,18 +90,18 @@ const ExplorePage = () => (
                 author: "uvacoder"
             },
             {
-                name: "Crappy Birds",
-                description: "A game about birds.",
-                image: "https://user-images.githubusercontent.com/27078897/149380918-a1855ab3-cc2d-4a9a-adc0-d5316d6f17ba.gif",
-                url: "/gamelab/recJX7dAboz7v1OFG",
-                author: "Leo"
+                name: "Githubuser Viewer",
+                description: "A nice webapp using github-api to search a users stats.",
+                image: "https://raw.githubusercontent.com/Uvacoder/abc-githubuser-view/master/screenshot-githubuser-view.png",
+                url: "https://githubuser-view.vercel.app",
+                author: "uvacoder"
             },
             {
-                name: "Brick Broken",
-                bescription: "A game about bricks. (Or, tomatoes? No, wait, apples.)",
-                image: "https://user-images.githubusercontent.com/27078897/150606449-5b73d7fe-f2d3-432f-9cc5-346c20919ec8.gif",
-                url: "/gamelab/rec6bdF7IS7vY7xzl",
-                author: "Leo"
+                name: "HackerNews",
+                bescription: "A webapp using nuxtjs to reproduce hackernews",
+                image: "https://raw.githubusercontent.com/Uvacoder/hackernews4u-uva/master/screenshot-hackernews4u.png",
+                url: "https://hackernews4u.vercel.app/news/1",
+                author: "uvacoder"
             }
         ]} style={{ }} />
 
