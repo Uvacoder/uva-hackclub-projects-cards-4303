@@ -118,10 +118,10 @@ const ExplorePage = () => (
                 author: "uvacoder"
             },
             {
-                name: "HackerNews",
-                bescription: "A webapp using nuxtjs to reproduce hackernews",
-                image: "https://raw.githubusercontent.com/Uvacoder/uva-flexbox-guide/master/screenshot-playground4flexbox.png",
-                url: "https://playground4flexbox.vercel.app/",
+                name: "Playground for BoxShadows",
+                bescription: "A webapp to create box shadows",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-boxshadows-guide/main/screenshot-playground4boxshadow.png",
+                url: "https://playground4boxshadow.vercel.app/",
                 author: "uvacoder"
             }
         ]} style={{ }} />
