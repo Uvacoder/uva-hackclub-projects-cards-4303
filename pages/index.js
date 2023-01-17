@@ -111,17 +111,17 @@ const ExplorePage = () => (
                 author: "uvacoder"
             },
             {
-                name: "HackerNews",
-                bescription: "A webapp using nuxtjs to reproduce hackernews",
-                image: "https://raw.githubusercontent.com/Uvacoder/hackernews4u-uva/master/screenshot-hackernews4u.png",
-                url: "https://hackernews4u.vercel.app/news/1",
+                name: "Playground for Flexbox",
+                bescription: "A great webapp to create flexbox grids",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-flexbox-guide/master/screenshot-playground4flexbox.png",
+                url: "https://playground4flexbox.vercel.app/",
                 author: "uvacoder"
             },
             {
                 name: "HackerNews",
                 bescription: "A webapp using nuxtjs to reproduce hackernews",
-                image: "https://raw.githubusercontent.com/Uvacoder/hackernews4u-uva/master/screenshot-hackernews4u.png",
-                url: "https://hackernews4u.vercel.app/news/1",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-flexbox-guide/master/screenshot-playground4flexbox.png",
+                url: "https://playground4flexbox.vercel.app/",
                 author: "uvacoder"
             }
         ]} style={{ }} />
