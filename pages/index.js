@@ -123,7 +123,28 @@ const ExplorePage = () => (
                 image: "https://raw.githubusercontent.com/Uvacoder/uva-boxshadows-guide/main/screenshot-playground4boxshadow.png",
                 url: "https://playground4boxshadow.vercel.app/",
                 author: "uvacoder"
-            }
+            },
+            {
+                name: "Collection of GitHub Readme",
+                bescription: "A collection of great github readme gifs",
+                image: "https://raw.githubusercontent.com/Uvacoder/github-readme-collection/master/screenshot-github-readme-collection.png",
+                url: "https://uvacoder.github.io/github-readme-collection/",
+                author: "uvacoder"
+            },
+            {
+                name: "Playground for BoxShadows",
+                bescription: "A webapp to create box shadows",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-boxshadows-guide/main/screenshot-playground4boxshadow.png",
+                url: "https://playground4boxshadow.vercel.app/",
+                author: "uvacoder"
+            },
+            {
+                name: "Playground for BoxShadows",
+                bescription: "A webapp to create box shadows",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-boxshadows-guide/main/screenshot-playground4boxshadow.png",
+                url: "https://playground4boxshadow.vercel.app/",
+                author: "uvacoder"
+            }                      
         ]} style={{ }} />
 
         <Container variant="wide" style={{  }}>
