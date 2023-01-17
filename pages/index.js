@@ -151,10 +151,10 @@ const ExplorePage = () => (
                 author: "uvacoder"
             },
             {
-                name: "Awesome Newsletters",
-                bescription: "A curated collection of programming newsletters",
-                image: "https://raw.githubusercontent.com/Uvacoder/awesome-newsletters/master/screenshot-awesome-newletters.png",
-                url: "https://uvacoder.github.io/awesome-newsletters/",
+                name: "Woodworker4303 Repos Collection",
+                bescription: "A collection of repos from woodworker4303",
+                image: "https://raw.githubusercontent.com/Uvacoder/repos4woodworker4303-4303/main/screenshot-repos4woodworker4303.png",
+                url: "https://repos4woodworker4303.vercel.app",
                 author: "uvacoder"
             }                         
         ]} style={{ }} />
