@@ -66,12 +66,8 @@ const ExplorePage = () => (
         }}
         >
         <NavLink href="https://github.com/uvacoder">GitHub</NavLink>
-         <NavLink href="#">
-             Link 2
-         </NavLink>
-         <NavLink href="#">
-             Link 3
-         </NavLink>
+        <NavLink href="https://abclinks.vercel.app">MyLinks</NavLink>
+        <NavLink href="https://uvacoderportfolio.vercel.app">Portfolio</NavLink>
         </Grid>
     </Container>
     </Box>
