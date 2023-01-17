@@ -130,7 +130,7 @@ const ExplorePage = () => (
             {
                 name: "Collection of SvelteKit",
                 bescription: "A collection of sites built on sveltekit",
-                image: "https://raw.githubusercontent.com/Uvacoder/uva-collect4sveltekit/main/screenshot-collect4sveltekit.png?token=GHSAT0AAAAAABZWJ5Q2Q4XRYPIW3XELETYMY6GWXWA",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-collect4sveltekit/main/screenshot-collect4sveltekit.png",
                 url: "https://collect4sveltekit.vercel.app/",
                 author: "uvacoder"
             },
