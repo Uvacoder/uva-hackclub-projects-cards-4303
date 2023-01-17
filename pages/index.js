@@ -144,7 +144,21 @@ const ExplorePage = () => (
                 image: "https://raw.githubusercontent.com/Uvacoder/awesome-newsletters/master/screenshot-awesome-newletters.png",
                 url: "https://uvacoder.github.io/awesome-newsletters/",
                 author: "uvacoder"
-            }                      
+            },
+            {
+                name: "Search Awesome Lists",
+                bescription: "A great tool to search all the awesome lists repos",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-awesome-search/main/screenshot-search4awesome.png",
+                url: "https://search4awesome.vercel.app/#/",
+                author: "uvacoder"
+            },
+            {
+                name: "Awesome Newsletters",
+                bescription: "A curated collection of programming newsletters",
+                image: "https://raw.githubusercontent.com/Uvacoder/awesome-newsletters/master/screenshot-awesome-newletters.png",
+                url: "https://uvacoder.github.io/awesome-newsletters/",
+                author: "uvacoder"
+            }                         
         ]} style={{ }} />
 
         <Container variant="wide" style={{  }}>
