@@ -132,10 +132,10 @@ const ExplorePage = () => (
                 author: "uvacoder"
             },
             {
-                name: "Playground for BoxShadows",
-                bescription: "A webapp to create box shadows",
-                image: "https://raw.githubusercontent.com/Uvacoder/uva-boxshadows-guide/main/screenshot-playground4boxshadow.png",
-                url: "https://playground4boxshadow.vercel.app/",
+                name: "Collection of SvelteKit",
+                bescription: "A collection of sites built on sveltekit",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-collect4sveltekit/main/screenshot-collect4sveltekit.png?token=GHSAT0AAAAAABZWJ5Q2Q4XRYPIW3XELETYMY6GWXWA",
+                url: "https://collect4sveltekit.vercel.app/",
                 author: "uvacoder"
             },
             {
