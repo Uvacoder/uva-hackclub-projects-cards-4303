@@ -154,7 +154,21 @@ const ExplorePage = () => (
                 image: "https://raw.githubusercontent.com/Uvacoder/repos4woodworker4303-4303/main/screenshot-repos4woodworker4303.png",
                 url: "https://repos4woodworker4303.vercel.app",
                 author: "uvacoder"
-            }                         
+            },
+            {
+                name: "Colortopia",
+                bescription: "A great collection and tools for gradients",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-colortopia-4303/master/screenshot-colortopia.png",
+                url: "https://colortopia.vercel.app",
+                author: "uvacoder"
+            },
+            {
+                name: "Woodworker4303 Repos Collection",
+                bescription: "A collection of repos from woodworker4303",
+                image: "https://raw.githubusercontent.com/Uvacoder/repos4woodworker4303-4303/main/screenshot-repos4woodworker4303.png",
+                url: "https://repos4woodworker4303.vercel.app",
+                author: "uvacoder"
+            }                          
         ]} style={{ }} />
 
         <Container variant="wide" style={{  }}>
