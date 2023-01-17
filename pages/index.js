@@ -29,20 +29,20 @@ import ProjectDisplay from '../components/ProjectDisplay.js'
 const ExplorePage = () => (
 <>
     <Head>
-    <title>Hack Club Explore</title>
+    <title>Explore my Projects</title>
     <Meta
         name="Explore"
-        description="Explore the amazing mini-projects that Hack Clubbers have created."
+        description="Explore the amazing mini-projects that uvacoder has created."
     />
     </Head>
     <Box as="header" sx={{ bg: 'sheet', color: 'text' }}>
     <Container sx={{ pt: 5, pb: [3, 4], textAlign: 'center' }}>
         <ColorSwitcher />
         <Heading as="h1" variant="title" color="red">
-        <Icon glyph="explore" size={64} style={{ verticalAlign: 'bottom' }} /> Hack Club Explore
+        <Icon glyph="explore" size={64} style={{ verticalAlign: 'bottom' }} /> Explore My Projects
         </Heading>
         <Text as="p" variant="subtitle" mt={3}>
-        Explore mini-projects made with <Link href="https://github.com/hackclub/game-lab/">Game Lab</Link> and <Link href="https://github.com/hackclub/muse/">Muse</Link>.
+        Explore mini-projects made by <Link href="https://github.com/uvacoder">uvacoder</Link>.
         </Text>
         <Container variant="narrow" sx={{ mt: 3, mb: 4 }}>
             <Label style={{ position: 'relative' }}> {/* The search feature has not been implemented yet */}
@@ -65,13 +65,11 @@ const ExplorePage = () => (
             a: { color: 'muted', transition: 'color .125s ease-in-out' }
         }}
         >
-        <NavLink href="https://hackclub.com">Hack Club</NavLink>
+        <NavLink href="https://github.com/uvacoder">GitHub</NavLink>
         <NavLink href="#">
-            Link 2
-        </NavLink>
+        <NavLink href="https://abclinks.vercel.app">MyLinks</NavLink>
         <NavLink href="#">
-            Link 3
-        </NavLink>
+        <NavLink href="https://uvacoderportfolio.vercel.app">Portfolio</NavLink>
         </Grid>
     </Container>
     </Box>
