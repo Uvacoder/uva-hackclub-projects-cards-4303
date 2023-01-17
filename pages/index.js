@@ -139,10 +139,10 @@ const ExplorePage = () => (
                 author: "uvacoder"
             },
             {
-                name: "Playground for BoxShadows",
-                bescription: "A webapp to create box shadows",
-                image: "https://raw.githubusercontent.com/Uvacoder/uva-boxshadows-guide/main/screenshot-playground4boxshadow.png",
-                url: "https://playground4boxshadow.vercel.app/",
+                name: "Awesome Newsletters",
+                bescription: "A curated collection of programming newsletters",
+                image: "https://raw.githubusercontent.com/Uvacoder/awesome-newsletters/master/screenshot-awesome-newletters.png",
+                url: "https://uvacoder.github.io/awesome-newsletters/",
                 author: "uvacoder"
             }                      
         ]} style={{ }} />
