@@ -70,6 +70,7 @@ const ExplorePage = () => (
         <NavLink href="https://abclinks.vercel.app">MyLinks</NavLink>
         <NavLink href="#">
         <NavLink href="https://uvacoderportfolio.vercel.app">Portfolio</NavLink>
+        <NavLink href="#">
         </Grid>
     </Container>
     </Box>
