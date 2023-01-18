@@ -182,7 +182,28 @@ const ExplorePage = () => (
                 image: "https://raw.githubusercontent.com/Uvacoder/uva-colorfinder-4303/main/screenshot-colorfinder.png",
                 url: "https://colorfinder.vercel.app",
                 author: "uvacoder"
-            }                         
+            },
+            {
+                name: "Shades4Tailwind",
+                bescription: "A great app to help you generate shades for tailwindcss",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-colorfinder-4303/main/screenshot-colorfinder.png",
+                url: "https://shades4tailwind.vercel.app",
+                author: "uvacoder"
+            },
+            {
+                name: "Pics4Code",
+                bescription: "A simple app to create great images of your code",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-images-4-code-4303/main/screenshot-pics4code.png",
+                url: "https://pics4code.vercel.app",
+                author: "uvacoder"
+            },
+            {
+                name: "ColorFinder",
+                bescription: "A quick and easy app to find colors in an image",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-colorfinder-4303/main/screenshot-colorfinder.png",
+                url: "https://colorfinder.vercel.app",
+                author: "uvacoder"
+            }                              
         ]} style={{ }} />
 
         <Container variant="wide" style={{  }}>
