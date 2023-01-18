@@ -168,7 +168,21 @@ const ExplorePage = () => (
                 image: "https://raw.githubusercontent.com/Uvacoder/uva-devtools-4-css-4303/master/screenshot-devtools4css.png",
                 url: "https://devtools4css.vercel.app",
                 author: "uvacoder"
-            }                          
+            },
+            {
+                name: "Starter for cards and grids",
+                bescription: "A collection tools to help any programmer with css",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-grid-cards-4303/main/screenshot-uvacardsngrids.png",
+                url: "https://uvacardsngrids.vercel.app",
+                author: "uvacoder"
+            },
+            {
+                name: "DevTools for CSS",
+                bescription: "A collection tools to help any programmer with css",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-devtools-4-css-4303/master/screenshot-devtools4css.png",
+                url: "https://devtools4css.vercel.app",
+                author: "uvacoder"
+            }                         
         ]} style={{ }} />
 
         <Container variant="wide" style={{  }}>
