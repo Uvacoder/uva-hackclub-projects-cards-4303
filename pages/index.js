@@ -163,10 +163,10 @@ const ExplorePage = () => (
                 author: "uvacoder"
             },
             {
-                name: "Woodworker4303 Repos Collection",
-                bescription: "A collection of repos from woodworker4303",
-                image: "https://raw.githubusercontent.com/Uvacoder/repos4woodworker4303-4303/main/screenshot-repos4woodworker4303.png",
-                url: "https://repos4woodworker4303.vercel.app",
+                name: "DevTools for CSS",
+                bescription: "A collection tools to help any programmer with css",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-devtools-4-css-4303/master/screenshot-devtools4css.png",
+                url: "https://devtools4css.vercel.app",
                 author: "uvacoder"
             }                          
         ]} style={{ }} />
