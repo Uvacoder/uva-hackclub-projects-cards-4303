@@ -177,10 +177,10 @@ const ExplorePage = () => (
                 author: "uvacoder"
             },
             {
-                name: "DevTools for CSS",
-                bescription: "A collection tools to help any programmer with css",
-                image: "https://raw.githubusercontent.com/Uvacoder/uva-devtools-4-css-4303/master/screenshot-devtools4css.png",
-                url: "https://devtools4css.vercel.app",
+                name: "ColorFinder",
+                bescription: "A quick and easy app to find colors in an image",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-colorfinder-4303/main/screenshot-colorfinder.png",
+                url: "https://colorfinder.vercel.app",
                 author: "uvacoder"
             }                         
         ]} style={{ }} />
