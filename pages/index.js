@@ -186,7 +186,7 @@ const ExplorePage = () => (
             {
                 name: "Shades4Tailwind",
                 bescription: "A great app to help you generate shades for tailwindcss",
-                image: "https://raw.githubusercontent.com/Uvacoder/uva-colorfinder-4303/main/screenshot-colorfinder.png",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-shades4tailwind-4303/master/screenshot-shades4tailwind.png?token=GHSAT0AAAAAABZWJ5Q2KDLDPRDIWMZPKYXAY6IYYWQ",
                 url: "https://shades4tailwind.vercel.app",
                 author: "uvacoder"
             },
