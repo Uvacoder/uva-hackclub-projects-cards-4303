@@ -203,7 +203,28 @@ const ExplorePage = () => (
                 image: "https://raw.githubusercontent.com/Uvacoder/uva-img4cover-4303/main/screenshot-img4cover.png",
                 url: "https://img4cover.vercel.app",
                 author: "uvacoder"
-            }                              
+            },
+            {
+                name: "MonitorMe",
+                bescription: "A monitoring service for my websites",
+                image: "https://raw.githubusercontent.com/Uvacoder/monitorme/master/screenshot-monitorme.png",
+                url: "https://uvacoder.github.io/monitorme/",
+                author: "uvacoder"
+            },
+            {
+                name: "Cover Card Generator",
+                bescription: "A quick webapp to generate cover pics for your blogs",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-img4cover-4303/main/screenshot-img4cover.png",
+                url: "https://img4cover.vercel.app",
+                author: "uvacoder"
+            },
+            {
+                name: "Cover Card Generator",
+                bescription: "A quick webapp to generate cover pics for your blogs",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-img4cover-4303/main/screenshot-img4cover.png",
+                url: "https://img4cover.vercel.app",
+                author: "uvacoder"
+            }                            
         ]} style={{ }} />
 
         <Container variant="wide" style={{  }}>
