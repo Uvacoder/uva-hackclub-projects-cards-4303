@@ -198,10 +198,10 @@ const ExplorePage = () => (
                 author: "uvacoder"
             },
             {
-                name: "ColorFinder",
-                bescription: "A quick and easy app to find colors in an image",
-                image: "https://raw.githubusercontent.com/Uvacoder/uva-colorfinder-4303/main/screenshot-colorfinder.png",
-                url: "https://colorfinder.vercel.app",
+                name: "Cover Card Generator",
+                bescription: "A quick webapp to generate cover pics for your blogs",
+                image: "https://raw.githubusercontent.com/Uvacoder/uva-img4cover-4303/main/screenshot-img4cover.png",
+                url: "https://img4cover.vercel.app",
                 author: "uvacoder"
             }                              
         ]} style={{ }} />
